@@ -108,52 +108,6 @@ Estimation: OLS with heteroscedasticity-robust standard errors (HC1)
 
 ---
 
-## 🏗️ Project Architecture
-
-```
-MSQE_PROJECT/
-├── 📄 Final_Project_Report.pdf     # Complete analysis & findings
-├── 📖 README.md                    # This comprehensive guide
-├── 01_Documentation/               # Reports, presentations, proposals
-│   ├── Final_Reports/             # Academic deliverables
-│   ├── Presentations/             # Conference-ready slides
-│   ├── Proposal/                  # Original research proposal
-│   └── Literature/                # Academic references
-├── 02_Data/                       # Systematically organized datasets
-│   ├── Raw_Data/                  # Original, unprocessed data
-│   │   ├── Carbon_Prices/         # EUA futures data
-│   │   ├── ETF_Data/              # Daily price/return data
-│   │   ├── ESG_Data/              # Sustainability ratings
-│   │   ├── Macro_Variables/       # Control variables
-│   │   └── Policy_Events/         # EU carbon policy timeline
-│   ├── Processed_Data/            # Clean, analysis-ready datasets
-│   │   ├── Main_Dataset_2018_2024/    # Primary analysis period
-│   │   └── Extended_Dataset_2010_2024/ # Robustness checks
-│   └── Volatility_Data/           # GARCH/LSTM model outputs
-├── 03_Code/                       # Reproducible analysis pipeline
-│   ├── Main_Analysis/             # Core econometric models
-│   │   ├── Main_Code_Project.ipynb        # Primary analysis
-│   │   ├── Main_Code_Project_14Yr.ipynb   # Extended period
-│   │   └── data_agg.ipynb                 # Data preprocessing
-│   ├── Visualization/             # Publication-quality charts
-│   └── Utils/                     # Helper functions
-├── 04_Results/                    # Complete analytical outputs
-│   ├── Statistical_Analysis/      # Econometric results
-│   │   ├── Regression_Results/    # OLS model outputs
-│   │   ├── Causal_Analysis/       # CATE estimates
-│   │   ├── Event_Study/           # Cumulative abnormal returns
-│   │   ├── Volatility_Models/     # GARCH vs LSTM comparison
-│   │   └── Summary_Results/       # Key findings compilation
-│   └── Figures/                   # Publication-ready visualizations
-├── 05_Archive/                    # Version control & backups
-└── 06_Admin/                      # Project documentation & metadata
-    ├── Data_Dictionary.md         # Variable definitions
-    ├── Analysis_Workflow.md       # Methodological guide
-    └── Technical_Documentation/   # Implementation details
-```
-
----
-
 ## 🚀 Quick Start Guide
 
 ### 🔧 **Prerequisites**
