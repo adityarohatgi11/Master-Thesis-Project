@@ -10,7 +10,7 @@
 
 ## 🎯 Executive Summary
 
-This Master's in Quantitative Economics (MSQE) project provides groundbreaking insights into how **carbon price shocks** differentially impact green versus brown Exchange-Traded Funds (ETFs). Using advanced econometric methods including causal forest analysis, event studies, and machine learning approaches, we demonstrate that traditional energy ETFs are **3x more sensitive** to carbon price volatility than clean energy ETFs.
+This project provides groundbreaking insights into how **carbon price shocks** differentially impact green versus brown Exchange-Traded Funds (ETFs). Using advanced econometric methods including causal forest analysis, event studies, and machine learning approaches, we demonstrate that traditional energy ETFs are **3x more sensitive** to carbon price volatility than clean energy ETFs.
 
 ### 🚀 Key Discoveries
 - **Brown ETFs (XLE)** exhibit 13.5% average treatment effects vs. 4.2% for **Green ETFs (ICLN)**
