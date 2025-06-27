@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          icln_icln_ret   R-squared:                       0.036
+Model:                            OLS   Adj. R-squared:                  0.035
+Method:                 Least Squares   F-statistic:                     14.62
+Date:                Tue, 27 May 2025   Prob (F-statistic):           7.42e-12
+Time:                        18:20:40   Log-Likelihood:                 10073.
+No. Observations:                3780   AIC:                        -2.014e+04
+Df Residuals:                    3775   BIC:                        -2.011e+04
+Df Model:                           4                                         
+Covariance Type:                  HC1                                         
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept              0.0092      0.002      5.155      0.000       0.006       0.013
+carbon_shock_resid     0.0713      0.012      5.793      0.000       0.047       0.095
+vix_vix               -0.0003   9.24e-05     -3.514      0.000      -0.001      -0.000
+brent_bz_f         -3.846e-06   1.31e-05     -0.294      0.769   -2.95e-05    2.18e-05
+dgs10                 -0.0012      0.000     -3.788      0.000      -0.002      -0.001
+==============================================================================
+Omnibus:                      367.403   Durbin-Watson:                   1.985
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2681.284
+Skew:                           0.103   Prob(JB):                         0.00
+Kurtosis:                       7.121   Cond. No.                     2.76e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 2.76e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
