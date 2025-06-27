@@ -234,7 +234,9 @@ model = Sequential([
 
 ### 📧 **Contact**
 📧 Email: aditya.rohatgi11@gmail.com    
+
 💼 LinkedIn: https://linkedin.com/in/adityarohatgi 
+
 🔗 GitHub: https://github.com/adityarohatgi11
 
 For questions regarding methodology, data access, or collaboration opportunities, please feel free to reach out.
